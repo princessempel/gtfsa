@@ -564,6 +564,12 @@ progress {
   list-style: none;
 }
 
+.list-event-item {
+  border-bottom: 1px solid var(--bs-blue);
+  padding-bottom: 0.1 rem;
+  margin-bottom: 1rem;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
