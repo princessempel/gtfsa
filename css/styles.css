@@ -11,11 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0038a8;
+  --bs-blue: #6ba8ec;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
-  --bs-red: #ce1126;
+  --bs-red: #db5363;
   --bs-orange: #fd7e14;
   --bs-yellow: #ffc800;
   --bs-green: #198754;
@@ -3037,16 +3037,18 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
+/* get involved button */
 .btn-primary {
   color: #fff;
-  background-color: var(--bs-blue);
-  border-color: var(--bs-blue);
+  background-color: #eab462;
+  border-color: #eab462;
   margin-bottom: 5rem;
 }
+/* get involved button - hover */
 .btn-primary:hover {
   color: #fff;
-  background-color: var(--bs-yellow);
-  border-color: var(--bs-yellow);
+  background-color: #eab462;
+  border-color: #eab462;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -3952,7 +3954,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #ffc800;
+  color: blue;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -11357,10 +11359,12 @@ p {
   font-size: 0.75rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 1000;
 }
+
+/* text logo in navbar */
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: #fff;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -11369,14 +11373,17 @@ p {
 #mainNav .navbar-brand img {
   height: 1.5rem;
 }
+
+/* text for navbar items*/
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: #fff;
   letter-spacing: 0.0625em;
 }
+/* settings when hovering over text for navbar items */
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: var(--bs-yellow);
+  color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -11395,10 +11402,11 @@ p {
     height: 2rem;
     transition: height 0.3s ease-in-out;
   }
+  /* background color for navbar*/
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--bs-blue);
+    background-color: #d0ad85;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11419,7 +11427,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/gtfsa-bg.png");
+  background-image: url("../assets/img/GTFSA.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11734,8 +11742,8 @@ header.masthead .masthead-subheading-small {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+  background-color: #f4cb9c;
+  /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }
